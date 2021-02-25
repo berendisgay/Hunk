@@ -7,16 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		19D87D5425E3DA7700B91C28 /* HunkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D87D4125E3DA7600B91C28 /* HunkApp.swift */; };
-		19D87D5525E3DA7700B91C28 /* HunkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D87D4125E3DA7600B91C28 /* HunkApp.swift */; };
+		1988132825E6DB93005CCDE3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1988132725E6DB93005CCDE3 /* HomeView.swift */; };
+		1988133225E6DE88005CCDE3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1988133125E6DE88005CCDE3 /* MapView.swift */; };
+		1988133C25E6E435005CCDE3 /* HunkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1988133B25E6E435005CCDE3 /* HunkApp.swift */; };
+		19C635C325E7A714003770E5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C635C225E7A714003770E5 /* SettingsView.swift */; };
+		19C635CB25E7A788003770E5 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C635CA25E7A788003770E5 /* SettingsCell.swift */; };
 		19D87D5625E3DA7700B91C28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D87D4225E3DA7600B91C28 /* ContentView.swift */; };
 		19D87D5725E3DA7700B91C28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D87D4225E3DA7600B91C28 /* ContentView.swift */; };
 		19D87D5825E3DA7700B91C28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D87D4325E3DA7700B91C28 /* Assets.xcassets */; };
 		19D87D5925E3DA7700B91C28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D87D4325E3DA7700B91C28 /* Assets.xcassets */; };
+		19D87D6525E59D7F00B91C28 /* SpecialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D87D6425E59D7F00B91C28 /* SpecialButton.swift */; };
+		19D87D6625E59D7F00B91C28 /* SpecialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D87D6425E59D7F00B91C28 /* SpecialButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		19D87D4125E3DA7600B91C28 /* HunkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HunkApp.swift; sourceTree = "<group>"; };
+		1988132725E6DB93005CCDE3 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = ../../../.Trash/HomeView.swift; sourceTree = "<group>"; };
+		1988133125E6DE88005CCDE3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		1988133B25E6E435005CCDE3 /* HunkApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HunkApp.swift; path = ../../../.Trash/HunkApp.swift; sourceTree = "<group>"; };
+		19C635C225E7A714003770E5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		19C635CA25E7A788003770E5 /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
 		19D87D4225E3DA7600B91C28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		19D87D4325E3DA7700B91C28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19D87D4825E3DA7700B91C28 /* Hunk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hunk.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +33,7 @@
 		19D87D5025E3DA7700B91C28 /* Hunk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hunk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D87D5225E3DA7700B91C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19D87D5325E3DA7700B91C28 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		19D87D6425E59D7F00B91C28 /* SpecialButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +67,13 @@
 		19D87D4025E3DA7600B91C28 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				19D87D4125E3DA7600B91C28 /* HunkApp.swift */,
+				1988133B25E6E435005CCDE3 /* HunkApp.swift */,
 				19D87D4225E3DA7600B91C28 /* ContentView.swift */,
+				1988132725E6DB93005CCDE3 /* HomeView.swift */,
+				1988133125E6DE88005CCDE3 /* MapView.swift */,
+				19C635C225E7A714003770E5 /* SettingsView.swift */,
+				19C635CA25E7A788003770E5 /* SettingsCell.swift */,
+				19D87D6425E59D7F00B91C28 /* SpecialButton.swift */,
 				19D87D4325E3DA7700B91C28 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -187,8 +202,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19C635CB25E7A788003770E5 /* SettingsCell.swift in Sources */,
+				19C635C325E7A714003770E5 /* SettingsView.swift in Sources */,
+				1988133225E6DE88005CCDE3 /* MapView.swift in Sources */,
+				19D87D6525E59D7F00B91C28 /* SpecialButton.swift in Sources */,
 				19D87D5625E3DA7700B91C28 /* ContentView.swift in Sources */,
-				19D87D5425E3DA7700B91C28 /* HunkApp.swift in Sources */,
+				1988132825E6DB93005CCDE3 /* HomeView.swift in Sources */,
+				1988133C25E6E435005CCDE3 /* HunkApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +216,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19D87D6625E59D7F00B91C28 /* SpecialButton.swift in Sources */,
 				19D87D5725E3DA7700B91C28 /* ContentView.swift in Sources */,
-				19D87D5525E3DA7700B91C28 /* HunkApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
